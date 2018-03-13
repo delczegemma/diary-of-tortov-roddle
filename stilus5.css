@@ -1,0 +1,235 @@
+
+/* Basic */
+
+*
+{
+	margin: 0em;
+	padding: 0em;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+}
+
+body
+{
+	font-family: "trebuchet ms", sans-serif;
+	font-size: 10pt;
+	background-image:url('images/fejl(1).jpg'), url('images/ecske.png'), url('images/resz.png'); 
+	background-repeat:repeat-x, repeat-x, repeat-x;
+	background-position: left top, 0px 134px, 0px 226px;
+	background-color: #34807E;
+	color: #6F5129;
+}
+
+a
+{
+	color: #1C9D60;
+	text-decoration: underline;
+}
+
+/* Outer */
+
+#outer
+{
+	width: 840px;
+	margin: 2em auto;
+}
+
+
+/* Header */
+header
+{
+	
+	padding: 1.75em;
+	text-align: center;
+}
+header h1
+{
+	font-size: 2em;
+}
+
+header h1 a
+{
+	color: #fff;
+	text-decoration: none;}
+
+header h2
+{
+	font-size: 1em;
+	color: #F0C162;
+}
+
+/* Menu */
+
+nav
+{
+	background: #003933 url('images/a1(1).jpg') top left no-repeat;
+	height: 94px;
+	width: 778px;
+	margin-left: 23px;
+	margin-top:8px;
+}
+
+nav ul
+{
+	list-style: none;
+	text-align: center;
+	position: relative;
+	top: 45px;
+	left: 60px
+}
+
+nav li
+{
+	padding: 0em 1.5em 0em 1.5em;
+	display: inline;
+}
+
+nav li a
+{
+	color: #3A2000;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 0.9em;
+	letter-spacing: 0.2em;
+}
+
+nav li a:hover
+{
+	text-decoration: underline;
+}
+
+/* Secondary Content */
+
+aside
+{
+	position: relative;
+	z-index: 2;
+	float: right;
+	width: 15em;
+	margin-top: 2em;
+}
+
+aside ul
+{
+	margin-bottom: 2em;
+	padding-left: 1em;
+}
+
+/*tartalom*/
+section
+{
+	background: #34807F url('images/a3(1).jpg') top left repeat-y;
+	margin-left: 23px;
+}
+
+	section p
+{
+	margin-bottom: 2em;
+	line-height: 1.5em;
+}
+
+	section h2,h3,h4,h5,h6
+{
+	position: relative;
+	color: #3F2109;
+	margin-bottom: 1em;
+	padding-bottom: 0.5em;
+	border-bottom: solid 1px #DFBF99;
+}
+
+	section h2
+{
+	font-size: 1.5em;
+}
+
+	section h3
+{
+	font-size: 1.1em;
+}
+
+		.disz
+			{
+				position: absolute;
+				z-index: 1;
+				background-image: url('images/a2(1).jpg'), url('images/resz.png');
+				background-position: top left;
+				background-repeat: repeat-y, repeat-x;
+				width: 840px;
+				height: 98px;
+	
+            }    
+		.contener
+			{
+				position: relative;
+				z-index: 2;
+				float: right;
+				margin-left: -18em;
+				margin-right: 1em;
+				width: 100%;
+			}
+
+/*article*/
+article
+{
+	margin: 2em 5.0em 4em 19em;
+	padding: 0em 0em 0em 1.5em;
+	border-left: solid 1px #DFBF99;
+}
+
+/* Footer */
+
+footer
+{
+	position: absolute;
+	width: 840px;
+	height: 352px;
+	padding-top: 0px;
+	background: #34807F url('images/Untitled 5.jpg') bottom left no-repeat;
+	text-align: center;
+}
+
+.clear
+{
+	clear: both;
+}
+
+/*mappa*/
+#kivul
+{
+	position: absolute;
+	width: 280px;
+	height: 255px;
+	float: left;
+	z-index: 7;
+	margin-top: 5px;
+	margin-left: -40px;
+	
+}
+
+/*kockas formazasok*/
+
+video {position: relative;
+	width:450px; 
+	height:385px;}
+
+figure
+        .left
+		{border: 1px dashed #8A6;
+	float: left;
+	margin-right: 10px}
+	.kezdo 
+	{ float: none;
+	margin-left: -10px;
+	border: 0px dashed #8A6;
+	}
+	
+	.right
+	{
+	border: 1px dashed #8A6;
+	float: right;
+	margin-right: 10px}

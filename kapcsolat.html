@@ -1,0 +1,134 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+
+<head>
+	<meta name="author" content="Takács Emma">
+	<meta name="description" content="Egy, az oldalon található animékről szóló kérdőívet találsz itt.">
+    <meta http-equiv="Content-Language" content="hu">
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+    <title>Kapcsolat</title>
+<link rel="stylesheet" type="text/css" href="stilus.css">
+</head>
+<body>
+<div id="outer">
+
+	<div id="kivul">
+			<map name="Kezdolap" id="Kezdolap">
+					<area  alt="Navigálás a kezdőlapra" 
+					href="index.html" 
+					shape="circle" 
+					coords="140,132,110" >
+			</map>
+		<img title="Vissza a főoldalra" src="images/ikon.png" width="242" height="224" alt="ikon" usemap="#Kezdolap">
+	</div>
+
+	<div id="header">
+		<h1><a href="#">Diary of Tortov Roddle</a></h1>
+		<h2>egy vándor naplója</h2>
+	</div>
+	<div id="menu">
+		<ul>
+			<li class="first"><a href="index.html" title="">Főoldal</a></li>
+			<li><a href="naplo.html"  title="">A napló</a></li>
+			<li><a href="kockak.html"  title="">A kocka</a></li>
+			<li><a href="#"  title="">Kapcsolat</a></li>
+		</ul>
+	</div>
+	<div id="content">
+		<div id="xbg1"></div>
+		<div id="primaryContentContainer">
+			<div id="primaryContent">
+				<h2>Kérdőív</h2>
+				
+				<p>Ha rászántad magad a mesék megnézésére, kérlek, küldd el a véleményed róluk!</p>
+				
+				<!--Űrlap-->
+	<form action="mailto:fushiginekochan@gmail.com" method="post">
+		<div id="kulur">
+				<fieldset>
+					<legend><b>Személyes adatok</b></legend>
+							<table style="border: none;">
+									<tr>
+                                         	<td>Név:</td>
+                                           	<td>
+                                               	<input type="text" name="nev" size="30" maxlength="35" tabindex="1">
+											</td>
+ 									</tr>
+ 									<tr>
+                                           	<td>E-mail:</td>
+  											<td>
+  												<input type="text" name="e-mail" size="30" maxlength="35" tabindex="2" >
+  											</td>
+ 									</tr>
+							</table>
+				</fieldset>
+			<b>Melyik mesét nézted meg?</b>
+			<table border="0" id="ur">
+				<tr>
+					<td>
+						<input type="checkbox" name="tortov" tabindex="3">
+						Tortov Roddle
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="checkbox" name="kocka" tabindex="4"> 
+						La Maison en Petits Cubes
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="checkbox" name="mas" tabindex="5"> 
+						Egyéb alkotások a szerzőtől
+					</td>
+				</tr>
+			</table>
+			<hr>
+				<p> <b>Melyik tetszett jobban?</b>
+					<ul>
+						<li>Tortov Roddle <input type="radio" value="tortov" name="tetszés"  tabindex="6"></li>  
+						<li>La Maison en Petits Cubes <input type="radio" value="kocka" name="tetszés"  tabindex="7"></li>
+					</ul>
+				
+			<hr>
+				<p><b>Mi fogott meg a legjobban?</b>
+				<select size="1" name="motivum"  tabindex="8">
+					<option value="allat">a medve</option>
+					<option  value="allat">a békaváros</option>
+					<option value="emlek">az emlékezés</option>
+					<option value="kocka">rejtett szobák a víz alatt</option>
+				</select>
+				</p>
+			<hr>
+				<p><b>Kérlek írd le a véleményed ide!</b></p>
+				 <p>
+					<textarea rows="4" name="velemeny" cols="40"  tabindex="9"></textarea>
+				</p>
+			<input value="Elküld" type="submit" class="btn"  tabindex="10">
+			<input value="Alaphelyzet" type="reset" class="btn1"  tabindex="11">
+		</div>
+</form>
+			</div>
+		</div>
+		<div id="secondaryContent">
+			<p><em>"De igaz utazók azok csupán, kik mennek,hogy menjenek"</em></p>
+			<h3>Linkek</h3>
+			<ul>
+				<li><a href="http://www.robot.co.jp/kunio/">Kunio Katou honlapja</a></li>
+				<li><a href="http://animeaddicts.hu/news.php?news">Animeaddicts</a></li>
+				<li><a href="http://videodrome.freeblog.hu/archives/2009/03/14/AniMegallo_La_Maison_en_Petit_Cubes_-_Oscar_dijas_anime/">az Oscar-djías anime</a></li>
+				<li><a href="http://guriguriblog.wordpress.com/category/diary-of-tortov-roddle/">a két rövdifilmről angolul</a></li>
+			</ul>
+		 <p>
+			<a href="http://validator.w3.org/check?uri=referer"><img
+			src="http://www.w3.org/Icons/valid-html401" alt="Valid HTML 4.01 Strict" height="31" width="88"></a>
+		</p>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<div id="footer">
+		<p>Készítette: Takács Emma (TAERABB.ELTE)</p>
+	</div>
+</div>
+</body>
+</html>

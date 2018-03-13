@@ -1,0 +1,152 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+
+<head>
+	<meta name="author" content="Takács Emma">
+	<meta name="description" content="Az oldal bemutatkozik.">
+	<meta name="keywords" content="Tortov Roddle, La Maison en Petits Cubes, Kunio Katou, vándor naplója, vándor, napló" >
+    <meta http-equiv="Content-Language" content="hu">
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+    <title>A vándor naplója</title>
+<link rel="stylesheet" type="text/css" href="stilus.css">
+</head>
+<body>
+
+<div id="outer">
+	
+	<div id="kivul">
+			<map name="Kezdolap" id="Kezdolap">
+					<area  alt="Navigálás a kezdőlapra" 
+					href="index.html" 
+					shape="circle" 
+					coords="140,132,110" >
+			</map>
+		<img title="Vissza a főoldalra" src="images/ikon.png" width="242" height="224" alt="ikon" usemap="#Kezdolap">
+	</div>
+
+	<div id="header">
+		<h1><a href="#">Diary of Tortov Roddle</a></h1>
+		<h2>egy vándor naplója</h2>
+	</div>
+	<div id="menu">
+		<ul>
+			<li class="first"><a href="#" title="">Főoldal</a></li>
+			<li><a href="naplo.html"  title="">A napló</a></li>
+			<li><a href="kockak.html"  title="">A kocka</a></li>
+			<li><a href="kapcsolat.html"  title="">Kapcsolat</a></li>
+		</ul>
+	</div>
+	<div id="content">
+		<div id="xbg1"></div>
+		<div id="primaryContentContainer">
+			<div id="primaryContent">
+				<h2>Üvözöllek vándor!</h2>
+				
+				<p>Ezt a honlapot Kunio Katou, japán animátor két leghíresebb rajzfilmének népszersűítése céljából hoztam létre.
+				Híresebb alkotása a <i>Tsumiki no Ie</i>, nekem személyes kedvencem pedig az örök vándort megszemélyesítő
+				<i>Aru Tabibito no Nikki</i>. Utóbbi mese kölcsönzi a honlap design-ját, hogy a webvándor még inkább azonosulni tudjon vele</p>
+			
+			<h3>A hatrészes sorozat egyben</h3>
+				<ul><li>hogy lássátok a hosszúságot</li></ul>
+			<!--videóbeágyazás-->
+				<object id="video" type="application/x-shockwave-flash"  data="http://www.youtube.com/v/i7F6cM_TMjI?version=3">
+					<param name="movie" value="http://www.youtube.com/v/i7F6cM_TMjI?version=3">
+					<param name="allowFullScreen" value="true">
+					<param name="allowscriptaccess" value="always">
+				</object>
+				
+				<!--vége-->
+
+			</div>
+		</div>
+		<div id="secondaryContent">
+			<p><em>"De igaz utazók azok csupán, kik mennek,
+hogy menjenek"</em></p>
+			<h3>Linkek</h3>
+			<ul>
+				<li><a href="http://www.robot.co.jp/kunio/">Kunio Katou honlapja</a></li>
+				<li><a href="http://animeaddicts.hu/news.php?news">Animeaddicts</a></li>
+				<li><a href="http://videodrome.freeblog.hu/archives/2009/03/14/AniMegallo_La_Maison_en_Petit_Cubes_-_Oscar_dijas_anime/">az Oscar-djías anime</a></li>
+				<li><a href="http://guriguriblog.wordpress.com/category/diary-of-tortov-roddle/">a két rövdifilmről angolul</a></li>
+			</ul>
+			
+			<p>
+				<a href="http://validator.w3.org/check?uri=referer"><img
+					src="http://www.w3.org/Icons/valid-html401" alt="Valid HTML 4.01 Strict" height="31" width="88"></a>
+			</p>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<div id="footer">
+		<p>Készítette: Takács Emma (TAERABB.ELTE)</p>
+		<!--JAVA-->
+	<script type="text/Javascript">
+<!--
+
+function getCookieVal (offset) {
+  var endstr = document.cookie.indexOf (";", offset);
+  if (endstr == -1)
+    endstr = document.cookie.length;
+  return unescape(document.cookie.substring(offset, endstr));
+}
+
+function GetCookie (name) {
+  var arg = name + "=";
+  var alen = arg.length;
+  var clen = document.cookie.length;
+  var i = 0;
+  while (i < clen) {
+    var j = i + alen;
+    if (document.cookie.substring(i, j) == arg)
+      return getCookieVal (j);
+    i = document.cookie.indexOf(" ", i) + 1;
+    if (i == 0)
+      break;
+  }
+  return null;
+}
+
+function SetCookie (name, value) {
+  var argv = SetCookie.arguments;
+  var argc = SetCookie.arguments.length;
+  var expires = (argc > 2) ? argv[2] : null;
+  var path = (argc > 3) ? argv[3] : null;
+  var domain = (argc > 4) ? argv[4] : null;
+  var secure = (argc > 5) ? argv[5] : false;
+  document.cookie = name + "=" + escape (value) +
+    ((expires == null) ? "" : ("; expires=" + expires.toGMTString())) +
+    ((path == null) ? "" : ("; path=" + path)) +
+    ((domain == null) ? "" : ("; domain=" + domain)) +
+    ((secure == true) ? "; secure" : "");
+}
+
+function DeleteCookie(name) {
+  var exp = new Date();
+  FixCookieDate (exp); // Correct for Mac bug
+  exp.setTime (exp.getTime() - 1);  // This cookie is history
+  var cval = GetCookie (name);
+  if (cval != null)
+    document.cookie = name + "=" + cval + "; expires=" + exp.toGMTString();
+}
+
+var expdate = new Date();
+var num_visits;
+expdate.setTime(expdate.getTime() + (5*24*60*60*1000));
+if (!(num_visits = GetCookie("num_visits")))
+  num_visits = 0;
+num_visits++;
+SetCookie("num_visits",num_visits,expdate);
+//-->
+</script>
+
+<script type="text/Javascript">
+<!--
+
+document.write("A honlapon "+num_visits+". alkalommal jártál!");
+//-->
+
+	</script> <!--JAVA vége-->
+	</div>
+</div>
+</body>
+</html>
